@@ -134,7 +134,7 @@ namespace company
                 }
                 else
                 {
-                    Console.WriteLine("Invalid deptno");
+                   Console.WriteLine("Invalid deptno");
                 }
             }
         }
