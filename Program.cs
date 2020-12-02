@@ -62,7 +62,7 @@ namespace company
         private decimal basic;
         private short deptno;
 
-        public Employee(string name = null, decimal basic = 0, short deptno = 0)
+        public Employee(string name = "noName", decimal basic = 10000, short deptno = 10)
         {
             empno = ++count;
             this.name = name;
